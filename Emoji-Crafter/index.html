@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Craft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <aside class="sidebar">
+            <h2>Discovered Emojis</h2>
+            <div id="discovered-list" class="emoji-list"></div>
+        </aside>
+        
+        <main class="crafting-area">
+            <h1>Emoji Craft</h1>
+            <div class="crafting-grid">
+                <div id="drop-zone-1" class="drop-zone">
+                    <div class="placeholder">Drag First Emoji Here</div>
+                </div>
+                <div class="plus">+</div>
+                <div id="drop-zone-2" class="drop-zone">
+                    <div class="placeholder">Drag Second Emoji Here</div>
+                </div>
+                <div class="equals">=</div>
+                <div id="result" class="result">
+                    <div class="placeholder">Result</div>
+                </div>
+            </div>
+            <button id="craft-btn" class="craft-button" disabled>Craft!</button>
+        </main>
+    </div>
+    <script src="recipes.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
